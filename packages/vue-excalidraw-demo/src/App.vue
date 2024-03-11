@@ -14,7 +14,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
   <rwc-header />
   <div class="excalidraw-container">
-    <rwc-excalidraw />
+    <rwc-excalidraw theme="dark"/>
   </div>
 </template>
 

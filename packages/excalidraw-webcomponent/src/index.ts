@@ -8,5 +8,9 @@ customElements.define(
   }),
 );
 customElements.define(
-  "rwc-excalidraw", r2wc(Excalidraw),
+  "rwc-excalidraw", r2wc((Excalidraw as any), {
+    props: {
+      theme: {text: "string", default: "light"},
+    }
+  }),
 );
