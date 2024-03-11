@@ -13,6 +13,9 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
   <HelloWorld msg="Vite + Vue" />
   <rwc-header />
+  <div class="excalidraw-container">
+    <rwc-excalidraw />
+  </div>
 </template>
 
 <style scoped>
@@ -27,5 +30,9 @@ import HelloWorld from './components/HelloWorld.vue'
 }
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
+}
+.excalidraw-container {
+  width: 100%;
+  height: 500px;
 }
 </style>
